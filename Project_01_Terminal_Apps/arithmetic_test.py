@@ -1,8 +1,6 @@
-## Project No: 01 - Terminal Apps
+## Project_01_Terminal_Apps
 ## Date: 31/08/2017    
-## Created by nurdy 
-
-#!/usr/bin/python
+## nurdy
 
 import random, time
 
