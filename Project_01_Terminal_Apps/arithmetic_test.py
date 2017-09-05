@@ -4,7 +4,7 @@
 
 import random, time
 
-def welcome():
+def arithmetic_test():
     prepeat = 'n'
     while prepeat.lower() != 'y':
         pname = str(input('Enter your player name: '))
@@ -106,9 +106,9 @@ def playAgain():
         time.sleep(3)
         exit
     elif pagain.lower == 'y' or 'yes':
-        welcome()
+        arithmetic_test()
     else:
-        welcome()
+        arithmetic_test()
 
 if __name__ == "__main__":
-   welcome()
+   arithmetic_test()
